@@ -3,7 +3,7 @@ This part styles man document
 */
 
 	html {
-		background-color: black;
+		background-color: gray;
 	}
 	
 	body {
@@ -11,5 +11,34 @@ This part styles man document
 		margin-top: 20px;
 		margin-left: auto;
 		margin-right: auto;
+		width: 960px;
+		}
 		
+	nav {
+		padding-left:314px;
+		width: 960px;
+	}
+		
+	#header {
+		background:white;
+		height:80px;
+		}
 
+	#MainFeed {
+		width:960px;
+		height:auto;
+		}
+		
+	#newsFeed {
+		float:left;
+		background: #00FFF1;
+		width: 700px;
+		height: 500px;
+		}
+	
+	#sideBar {
+		float:left;
+		background: #FF000A;
+		width:260px;
+		height: 500px;
+		}
