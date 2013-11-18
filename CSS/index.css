@@ -17,11 +17,18 @@ This part styles man document
 	nav {
 		padding-left:252px;
 		width: 960px;
+
 	}
 		
 	#header {
+		z-index: -11;
 		background:white;
-		height:80px;
+		height:auto;
+		}
+		
+	#logo {
+		padding-bottom: 20px;
+		padding-left:50px;
 		}
 
 	#MainFeed {
