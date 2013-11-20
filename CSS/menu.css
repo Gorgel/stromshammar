@@ -1,16 +1,15 @@
 
 		
 #mainMenu {
-  text-align: left;
-  display: inline;
-  margin: 0;
-  padding: 15px 4px 17px 0;
+padding-left: 149px;
+width: 960px;
   list-style: none;
 
 }
 #mainMenu li {
-  font: bold 18px/18px black;
-
+ text-align: left;
+  font: bold 17px/18px black;
+font-family: 'entypo' Arial;
   display: inline-block;
   margin-right: -4px;
   position: relative;
