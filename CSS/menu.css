@@ -1,20 +1,21 @@
 
 		
 #mainMenu {
-padding-left: 149px;
+padding-left: 0px;
 width: 960px;
   list-style: none;
 
 }
 #mainMenu li {
+	color:black;
  text-align: left;
   font: bold 17px/18px black;
 font-family: 'entypo' Arial;
   display: inline-block;
   margin-right: -4px;
   position: relative;
-  padding: 15px 20px;
-  background: #fff;
+  padding: 15px 10px;
+  background: white;
   cursor: pointer;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
@@ -23,14 +24,20 @@ font-family: 'entypo' Arial;
   transition: all 0.2s;
 }
 
+#mainMenu li a {
+	padding:inherit;
+	text-decoration: none;
+	color:black;
+	}
 
 #mainMenu li:hover {
   background: #555;
   color: #fff;
+  color:white;
 }
 
 #mainMenu li:hover > a {
-	color: blue;
+	color: white;
   }
   
 #mainMenu li ul {
@@ -38,7 +45,7 @@ font-family: 'entypo' Arial;
   position: absolute;
   top: 48px;
   left: 0;
-  width: 150px;
+  width: auto;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
@@ -55,23 +62,24 @@ font-family: 'entypo' Arial;
   background: #555; 
   display: block; 
   color: #fff;
-  text-shadow: 0 -1px 0 #000;
+  
 }
 #mainMenu li ul li:hover {
 	color: white;
 	background: #666; 
 	}
 #mainMenu li:hover ul {
+	z-index: 100;
   display: block;
   opacity: 1;
   visibility: visible;
 }
 
-#mainMenu li a:link {
+#mainMenu li ul li a:link {
 		 text-decoration: none;
-		color: black;
+		color: white;
 	}
 	
-	#mainMenu li a:visited {
-		color: inherit;
+	#mainMenu li ul li a:visited {
+		color: white;
 	}

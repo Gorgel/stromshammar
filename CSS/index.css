@@ -25,11 +25,6 @@ This part styles man document
 		background:white;
 		height:auto;
 		}
-		
-	#logo {
-		padding-bottom: 20px;
-		padding-left:50px;
-		}
 
 	#mainFeed {
 		overflow:auto;
@@ -38,22 +33,44 @@ This part styles man document
 		height:auto;
 		}
 		
+		a.svg {
+			padding-bottom: 20px;
+			padding-left:50px;
+			position: relative;
+			display: inline-block; 
+		}
+		
+		a.svg:after {
+			content: ""; 
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left:0;
+		}	
 	/*
 This part styles the news feed
 */
 		
 	#newsFeed {
+		border-right:  black1px;
+		border-right-style: dotted;
+		border-right-width: 1px;
+		border-right-color: gray; 
 		padding-top: 50px;
 		float:left;
 		background: white;
 		width: 700px;
-		height: 500px;
+		height: auto;
 		padding-bottom:50px;
 		margin-bottom:20px;
 		}
 		
 	.newsItem {
 		border-bottom: solid 1px;
+		border-bottom-style: dotted;
+		border-bottom-width: 1px;
+		border-bottom-color: gray; 
 		margin-bottom:30px;
 		width:600px;
 		margin-left: auto;
@@ -78,9 +95,26 @@ This part styles the news feed
 		font-size:0.8em;
 		}
 		
+	/*
+This part styles the side bar
+*/
+		
 	#sideBar {
 		float:left;
 		background: white;
-		width:260px;
+		width:239px;
+		padding: 10px;
 		height: auto;
 		}
+		
+	#sideBar h2 {
+		text-align: center;
+		margin: 0px;
+		font-family: Arial;
+		color: black;
+		}
+		
+		
+		
+		
+		
