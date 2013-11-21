@@ -1,0 +1,119 @@
+
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+
+/*
+This part styles man document
+*/
+
+
+	html {
+		background-color: gray;
+	}
+	
+	body {
+		border-left: solid 10px #00FFFF;
+		background-color: white;
+		margin-top: 20px;
+		margin-left: auto;
+		margin-right: auto;
+		width: 960px;
+		}
+
+	}
+		
+	#header {
+		background:white;
+		height:auto;
+		}
+
+	#mainFeed {
+		overflow:auto;
+		background:white;
+		width:960px;
+		height:auto;
+		}
+		
+		a.svg {
+			padding-bottom: 20px;
+			padding-left:50px;
+			position: relative;
+			display: inline-block; 
+		}
+		
+		a.svg:after {
+			content: ""; 
+			position: absolute;
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left:0;
+		}	
+	/*
+This part styles the news feed
+*/
+		
+	#vattenFeed {
+		border-right:  black1px;
+		border-right-style: dotted;
+		border-right-width: 1px;
+		border-right-color: gray; 
+		padding-top: 50px;
+		float:left;
+		background: white;
+		width: 700px;
+		height: auto;
+		padding-bottom:50px;
+		margin-bottom:20px;
+		}
+		
+	.vattenItem {
+		border-bottom: solid 1px;
+		border-bottom-style: dotted;
+		border-bottom-width: 1px;
+		border-bottom-color: gray; 
+		margin-bottom:30px;
+		width:600px;
+		margin-left: auto;
+		margin-right:auto;
+		}
+		
+	.vattenItem h2 {
+		margin: 0px;
+		font-family: Arial;
+		color: black;
+		}
+		
+	.vattenItem p {
+		color:black;
+		}
+		
+	#newsDate {
+		margin:0px;
+		padding:0px;
+		color:gray;
+		font-size:0.8em;
+		}
+		
+	/*
+This part styles the side bar
+*/
+		
+	#sideBar {
+		float:left;
+		background: white;
+		width:239px;
+		padding: 10px;
+		height: auto;
+		}
+		
+	#sideBar h2 {
+		text-align: center;
+		margin: 0px;
+		font-family: Arial;
+		color: black;
+		}
+		
+		
+		
+		
+		
