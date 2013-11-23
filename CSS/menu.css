@@ -1,26 +1,28 @@
 
 		
 #mainMenu {
-padding-left: 0px;
-width: 960px;
-  list-style: none;
+	font-family:Arial;
+	background: #FFF056;
+	padding-left: 0px;
+	width: 960px;
+	list-style: none;
 
 }
 #mainMenu li {
 	color:black;
- text-align: left;
-  font: bold 17px/18px black;
-font-family: 'entypo' Arial;
-  display: inline-block;
-  margin-right: -4px;
-  position: relative;
-  background: white;
-  cursor: pointer;
-  -webkit-transition: all 0.2s;
-  -moz-transition: all 0.2s;
-  -ms-transition: all 0.2s;
-  -o-transition: all 0.2s;
-  transition: all 0.2s;
+	text-align: left;
+	font: 1em black;
+	font-family: symbol 'entypo';
+	display: inline-block;
+	margin-right: -4px;
+	position: relative;
+	background: #FFF056;
+	cursor: pointer;
+	-webkit-transition: all 0.2s;
+	-moz-transition: all 0.2s;
+	-ms-transition: all 0.2s;
+	-o-transition: all 0.2s;
+	transition: all 0.2s;
 }
 
 #mainMenu li a {
@@ -31,55 +33,53 @@ font-family: 'entypo' Arial;
 	}
 
 #mainMenu li:hover {
-  background: #555;
-  color: #fff;
-  color:white;
+	background: white;
+	color:black;
 }
 
 #mainMenu li:hover > a {
-	color: white;
+	color: black;
   }
   
 #mainMenu li ul {
-  padding: 0;
-  position: absolute;
-  top: 38px;
-  left: 0;
-  width: auto;
-  -webkit-box-shadow: none;
-  -moz-box-shadow: none;
-  box-shadow: none;
-  display: none;
-  opacity: 0;
-  visibility: hidden;
-  -webkit-transiton: opacity 0.2s;
-  -moz-transition: opacity 0.2s;
-  -ms-transition: opacity 0.2s;
-  -o-transition: opacity 0.2s;
-  -transition: opacity 0.2s;
+	padding: 0;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	width: auto;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+	-webkit-transiton: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-transition: opacity 0.2s;
 }
 #mainMenu li ul li { 
-  background: #555; 
-  display: block; 
-  color: #fff;
-  
+	background: #FFF056; 
+	display: block; 
+	color: #fff;
 }
 #mainMenu li ul li:hover {
-	color: white;
-	background: #666; 
+	color: black;
+	background: white; 
 	}
 #mainMenu li:hover ul {
 	z-index: 100;
-  display: block;
-  opacity: 1;
-  visibility: visible;
+	display: block;
+	opacity: 1;
+	visibility: visible;
 }
 
 #mainMenu li ul li a:link {
 		 text-decoration: none;
-		color: white;
+		color: black;
 	}
 	
 	#mainMenu li ul li a:visited {
-		color: white;
+		color: black;
 	}

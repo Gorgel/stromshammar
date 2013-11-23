@@ -8,11 +8,11 @@ This part styles man document
 
 	html {
 		background-color: gray;
-		font-family:Arial;
 	}
 	
 	body {
 		overflow:auto;
+		border-left: solid 10px #00FFFF;
 		background-color: white;
 		margin-top: 20px;
 		margin-left: auto;
@@ -85,9 +85,19 @@ This part styles the news feed
 		
 	.newsItem p {
 		color:black;
-		padding-top: 20px;
-		padding-bottom: 20px;
 		}
+		
+		
+	img.center {
+		border: solid 1px;
+		margin:20px;
+		height:90%;
+		width:90%;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		}
+	
 	#newsDate {
 		margin:0px;
 		padding:0px;

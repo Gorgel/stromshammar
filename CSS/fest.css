@@ -8,11 +8,11 @@ This part styles man document
 
 	html {
 		background-color: gray;
-		font-family:Arial;
 	}
 	
 	body {
 		overflow:auto;
+		border-left: solid 10px #00FFFF;
 		background-color: white;
 		margin-top: 20px;
 		margin-left: auto;
@@ -52,7 +52,7 @@ This part styles man document
 This part styles the news feed
 */
 		
-	#newsFeed {
+	#festFeed {
 		border-right:  black1px;
 		border-right-style: dotted;
 		border-right-width: 1px;
@@ -66,7 +66,7 @@ This part styles the news feed
 		margin-bottom:20px;
 		}
 		
-	.newsItem {
+	.festItem {
 		border-bottom: solid 1px;
 		border-bottom-style: dotted;
 		border-bottom-width: 1px;
@@ -77,17 +77,16 @@ This part styles the news feed
 		margin-right:auto;
 		}
 		
-	.newsItem h2 {
+	.festItem h2 {
 		margin: 0px;
 		font-family: Arial;
 		color: black;
 		}
 		
-	.newsItem p {
+	.festItem p {
 		color:black;
-		padding-top: 20px;
-		padding-bottom: 20px;
 		}
+		
 	#newsDate {
 		margin:0px;
 		padding:0px;

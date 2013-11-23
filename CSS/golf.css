@@ -8,11 +8,10 @@ This part styles man document
 
 	html {
 		background-color: gray;
-		font-family:Arial;
 	}
 	
 	body {
-		overflow:auto;
+		border-left: solid 10px #00FFFF;
 		background-color: white;
 		margin-top: 20px;
 		margin-left: auto;
@@ -20,12 +19,12 @@ This part styles man document
 		width: 960px;
 		}
 
-		#header {
-		margin-bottom:40px;
+	}
+		
+	#header {
 		background:white;
 		height:auto;
 		}
-	
 
 	#mainFeed {
 		overflow:auto;
@@ -35,7 +34,8 @@ This part styles man document
 		}
 		
 		a.svg {
-			padding-left:30px;
+			padding-bottom: 20px;
+			padding-left:50px;
 			position: relative;
 			display: inline-block; 
 		}
@@ -85,9 +85,22 @@ This part styles the news feed
 		
 	.newsItem p {
 		color:black;
-		padding-top: 20px;
-		padding-bottom: 20px;
 		}
+		
+	#golfcontainer {
+		margin:0 auto;
+	padding-top: 40px;
+	padding-bottom:60px;
+	}
+	
+	table {
+		padding:20px;
+		}
+
+	table tr td {
+		padding:10px;
+		}
+		
 	#newsDate {
 		margin:0px;
 		padding:0px;
