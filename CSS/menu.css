@@ -14,7 +14,6 @@ font-family: 'entypo' Arial;
   display: inline-block;
   margin-right: -4px;
   position: relative;
-  padding: 15px 10px;
   background: white;
   cursor: pointer;
   -webkit-transition: all 0.2s;
@@ -25,7 +24,8 @@ font-family: 'entypo' Arial;
 }
 
 #mainMenu li a {
-	padding:inherit;
+	padding:10px 20px;
+	display:block;
 	text-decoration: none;
 	color:black;
 	}
@@ -43,7 +43,7 @@ font-family: 'entypo' Arial;
 #mainMenu li ul {
   padding: 0;
   position: absolute;
-  top: 48px;
+  top: 38px;
   left: 0;
   width: auto;
   -webkit-box-shadow: none;
