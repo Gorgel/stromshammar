@@ -8,10 +8,10 @@ This part styles man document
 
 	html {
 		background-color: gray;
+		font-family:Arial;
 	}
 	
 	body {
-		border-left: solid 10px #00FFFF;
 		background-color: white;
 		margin-top: 20px;
 		margin-left: auto;
