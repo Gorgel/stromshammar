@@ -58,11 +58,11 @@ This part styles the news feed
 		border-right-style: dotted;
 		border-right-width: 1px;
 		border-right-color: gray; 
-		padding-top: 50px;
 		float:left;
 		background: white;
 		width: 700px;
 		height: auto;
+		margin-top: 50px;
 		padding-bottom:50px;
 		margin-bottom:20px;
 		}
@@ -74,11 +74,14 @@ This part styles the news feed
 		border-bottom-color: gray; 
 		margin-bottom:30px;
 		width:600px;
+		padding-top:10px;
+		padding-bottom:10px;
 		margin-left: auto;
 		margin-right:auto;
 		}
 		
 	.newsItem h2 {
+		
 		margin: 0px;
 		font-family: Arial;
 		color: black;
@@ -86,8 +89,6 @@ This part styles the news feed
 		
 	.newsItem p {
 		color:black;
-		padding-top: 20px;
-		padding-bottom: 20px;
 		}
 	#newsDate {
 		margin:0px;
@@ -103,16 +104,38 @@ This part styles the side bar
 	#sideBar {
 		float:left;
 		background: white;
-		width:239px;
-		padding: 10px;
+		width:259px;
 		height: auto;
+		margin-top: 50px;
 		}
 		
-	#sideBar h2 {
-		text-align: center;
+	.sideBarItem {	
+		padding-left:20px;
+		padding-right:20px;
+		width:auto;
+		height: auto;
+		margin-bottom:20px;
+		}
+	
+	.sideBarItem h3 {
 		margin: 0px;
-		font-family: Arial;
+		font-family:  Comic Sans;
 		color: black;
+		}
+	
+	.sideBarItem p {
+	font-size:0.9em;
+	padding-left:10px;
+	padding-right:10px;
+		}
+		
+	.sideBarItem a {
+	font-weight:bold;
+	font-family:  Helvetica bold;
+		}
+		
+	.sideBarItem a:link {
+		color:black;
 		}
 		
 		

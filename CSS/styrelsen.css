@@ -7,19 +7,19 @@ This part styles man document
 
 
 	html {
-		background-color: gray;
+		background-image:url('../bilder/diagmonds.png');
+		background-repeat:repeat-y repetat-x;
 		font-family:Arial;
 	}
 	
 	body {
+		overflow:auto;
 		background-color: white;
 		margin-top: 20px;
 		margin-left: auto;
 		margin-right: auto;
 		width: 960px;
 		}
-
-	}
 		
 	#header {
 		background:white;
@@ -34,7 +34,6 @@ This part styles man document
 		}
 		
 		a.svg {
-			padding-bottom: 20px;
 			padding-left:50px;
 			position: relative;
 			display: inline-block; 
@@ -108,18 +107,39 @@ This part styles the side bar
 	#sideBar {
 		float:left;
 		background: white;
-		width:239px;
-		padding: 10px;
+		width:259px;
 		height: auto;
+		margin-top: 50px;
 		}
 		
-	#sideBar h2 {
-		text-align: center;
+	.sideBarItem {	
+		padding-left:20px;
+		padding-right:20px;
+		width:auto;
+		height: auto;
+		margin-bottom:20px;
+		}
+	
+	.sideBarItem h3 {
 		margin: 0px;
-		font-family: Arial;
+		font-family:  Comic Sans;
 		color: black;
 		}
+	
+	.sideBarItem p {
+	font-size:0.9em;
+	padding-left:10px;
+	padding-right:10px;
+		}
 		
+	.sideBarItem a {
+	font-weight:bold;
+	font-family:  Helvetica bold;
+		}
+		
+	.sideBarItem a:link {
+		color:black;
+		}
 		
 		
 		
