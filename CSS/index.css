@@ -2,7 +2,7 @@
 @import url(http://weloveiconfonts.com/api/?family=entypo);
 
 /*
-This part styles man document
+nedan finns koden som stylar huvuddokumentet
 */
 
 
@@ -20,6 +20,10 @@ This part styles man document
 		margin-right: auto;
 		width: 960px;
 		}
+
+/*
+nedan finns koden som stylar headern
+*/
 
 		#header {
 		margin-bottom:40px;
@@ -50,7 +54,7 @@ This part styles man document
 			left:0;
 		}	
 	/*
-This part styles the news feed
+nedan finns koden som stylar vänsterspalten --- "artiklar"
 */
 		
 	#newsFeed {
@@ -98,7 +102,7 @@ This part styles the news feed
 		}
 		
 	/*
-This part styles the side bar
+nedan finns kode för högerrspalten --- "småartiklar"
 */
 		
 	#sideBar {
