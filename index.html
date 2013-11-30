@@ -12,6 +12,11 @@
 <!-- laddar bildslider plugin (*after* the jQuery library) -->
 <script src="js/bjqs-1.3.min.js"></script>
 
+<!-- laddar jQuery från webben -->
+<script src="js/raphael.js"></script>
+
+<script src="icons.js"></script>
+
 <!-- laddar css för bildslidern -->
 <link rel="stylesheet" href="CSS/bjqs.css">
 	
@@ -29,10 +34,8 @@
 	
 <!-- navigation drop down menu -->
     <ul class="menu" id = "mainMenu">
-        <li><a href="index.html" class="menuItem">Startsidan <object  data="icons/Flaticon_20176.svg" type="image/svg+xml" class="icon">
-		</object></a></li>
-        <li><a href="#" class=menuItem">Föreningsinformation  <object  data="icons/Flaticon_9794.svg" type="image/svg+xml" class="icon">
-		</object></a>
+        <li><div class="aContainer"><a href="index.html" class="menuItem">Startsidan  </a></div><div class="home"></div><script src="js/homeIcon.js"></script></li>
+        <li><div class="aContainer"><a href="#" class="menuItem">Föreningsinformation  </a></div><div class="information"></div><script src="js/informationIcon.js"></script>
 		<ul>
 			<li><a href="stadgar.html" class = "subMenuItem">Stadgar</a></li>
 			<li><a href="styrelsen.html" class = "subMenuItem">Styrelsen</a></li>
@@ -41,8 +44,7 @@
 			<li><a href="lagindelning.html" class = "subMenuItem">Lagindelning</a></li>
 		</ul>
         </li>
-        <li><a href="#" class=menuItem">Fritidsaktiviteter <object  data="icons/Flaticon_3923.svg" type="image/svg+xml" class="icon">
-		</object></a>
+        <li><div class="aContainer"><a href="#" class=menuItem">Fritidsaktiviteter </a></div><div class="leaf"></div><script src="js/leafIcon.js"></script>
 		<ul>
 			<li><a href="fiske.html" class = "subMenuItem">Fiske</a></li>
 			<li><a href="golf.html" class = "subMenuItem">Golf</a></li>
@@ -50,10 +52,8 @@
 			<li><a href="fest.html" class = "subMenuItem">Fest</a></li>
 		</ul>
 	</li>
-        <li><a href="kontakt.html" class="menuItem">Kontakt  <object  data="icons/Flaticon_7618.svg" type="image/svg+xml" class="icon">
-		</object></a></li>
-        <li><a href="historia.html"class="menuItem">Historia  <object  data="icons/Flaticon_3712.svg" type="image/svg+xml" class="icon">
-		</object></a></li>
+        <li><div class="aContainer"><a href="kontakt.html" class="menuItem">Kontakt  </a></div><div class="kontakt"></div><script src="js/kontaktIcon.js"></script></li>
+        <li><div class="aContainer"><a href="historia.html"class="menuItem">Historia  </a></div><div class="historia"></div><script src="js/historiaIcon.js"></script></li>
     </ul>
 <!-- slut på drop down menyn -->
 
@@ -64,6 +64,8 @@
 		<object  data="design/dandelionLogo2.svg" type="image/svg+xml" class="mailicon">
 		</object>
 	</a>
+	
+	
 	
 	<!-- här börjar koden för bildslidern -->
 	<!-- container "div-en" är själva blocket som slidern sitter i-->

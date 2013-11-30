@@ -3,7 +3,7 @@
 #mainMenu {
 	font-family:Arial;
 	background: #FFF056;
-	padding-left: 0px;
+	padding: 0px;
 	width: 960px;
 	list-style: none;
 
@@ -12,9 +12,11 @@
 	color:black;
 	text-align: left;
 	font: 1em black;
-	font-family: symbol;
+	font-family: Arial sans;
 	display: inline-block;
-	margin-right: -4px;
+	margin-right:-4px;
+	margin-bottom:-5px;
+	padding-right:20px;
 	position: relative;
 	background: #FFF056;
 	cursor: pointer;
@@ -25,8 +27,14 @@
 	transition: all 0.2s;
 }
 
+.aContainer {
+	float:left;
+	padding:0px;
+	}
+
 #mainMenu li a {
-	padding:10px 20px;
+	
+	padding:10px 10px;
 	display:block;
 	text-decoration: none;
 	color:black;
@@ -42,6 +50,7 @@
   }
   
 #mainMenu li ul {
+	float:none;
 	padding: 0;
 	position: absolute;
 	top: 38px;
@@ -60,6 +69,7 @@
 	-transition: opacity 0.2s;
 }
 #mainMenu li ul li { 
+	float:none;
 	background: #FFF056; 
 	display: block; 
 	color: #fff;
@@ -84,7 +94,34 @@
 		color: black;
 	}
 
-.icon {
-			width:20px;
-			height:20px;
-			}
+ .home {
+	float:left;
+	margin:0px;
+	padding-top:2px;
+	}
+	
+ .information {
+	float:left;
+	margin:0px;
+	padding-top:4px;
+	}
+	
+ .leaf {
+	float:left;
+	margin:0px;
+	padding-top:4px;
+	}
+	
+.kontakt {
+	float:left;
+	margin:0px;
+	padding-top:4px;
+	}
+	
+ .historia {
+	float:left;
+	margin:0px;
+	padding-top:4px;
+	}
+			
+			
