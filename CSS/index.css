@@ -1,5 +1,7 @@
 
+/*
 @import url(http://weloveiconfonts.com/api/?family=entypo);
+*/
 
 /*
 nedan finns koden som stylar huvuddokumentet
@@ -9,7 +11,6 @@ nedan finns koden som stylar huvuddokumentet
 	html {
 		background-image:url('../bilder/diagmonds.png');
 		background-repeat:repeat-y repetat-x;
-		font-family:Arial;
 	}
 	
 	body {
