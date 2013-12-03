@@ -39,6 +39,8 @@ nedan finns koden som stylar headern
 		}
 		
 		a.svg {
+			height:80px;
+			width:300px;
 			padding-left:30px;
 			position: relative;
 			display: inline-block; 
