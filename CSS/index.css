@@ -9,6 +9,7 @@ nedan finns koden som stylar huvuddokumentet
 	html {
 		background-image:url('../bilder/diagmonds.png');
 		background-repeat:repeat-y repetat-x;
+		font-family: Helvetica bold, Comic sans, Arial; 
 	}
 	
 	body {
