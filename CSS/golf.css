@@ -8,9 +8,9 @@ This part styles man document
 	html {
 		background-image:url('../bilder/diagmonds.png');
 		background-repeat:repeat-y repetat-x;
-		font-family: Helvetica bold, Comic sans, Arial; 
+		font-family: Helvetica bold, Comic sans, Arial;
 	}
-	
+
 	body {
 		background-color: white;
 		margin-top: 20px;
@@ -20,7 +20,7 @@ This part styles man document
 		}
 
 	}
-		
+
 	#header {
 		background:white;
 		height:auto;
@@ -32,31 +32,31 @@ This part styles man document
 		width:960px;
 		height:auto;
 		}
-		
+
 		a.svg {
 			padding-bottom: 20px;
-			padding-left:50px;
+			padding-left:30px;
 			position: relative;
-			display: inline-block; 
+			display: inline-block;
 		}
-		
+
 		a.svg:after {
-			content: ""; 
+			content: "";
 			position: absolute;
 			top: 0;
 			right: 0;
 			bottom: 0;
 			left:0;
-		}	
+		}
 	/*
 This part styles the news feed
 */
-		
+
 	#newsFeed {
-		border-right:  black1px;
+		border-right:  black 1px;
 		border-right-style: dotted;
 		border-right-width: 1px;
-		border-right-color: gray; 
+		border-right-color: gray;
 		padding-top: 50px;
 		float:left;
 		background: white;
@@ -65,34 +65,34 @@ This part styles the news feed
 		padding-bottom:50px;
 		margin-bottom:20px;
 		}
-		
+
 	.newsItem {
 		border-bottom: solid 1px;
 		border-bottom-style: dotted;
 		border-bottom-width: 1px;
-		border-bottom-color: gray; 
+		border-bottom-color: gray;
 		margin-bottom:30px;
 		width:600px;
 		margin-left: auto;
 		margin-right:auto;
 		}
-		
+
 	.newsItem h2 {
 		margin: 0px;
 		font-family: Arial;
 		color: black;
 		}
-		
+
 	.newsItem p {
 		color:black;
 		}
-		
+
 	#golfcontainer {
 		margin:0 auto;
 	padding-top: 40px;
 	padding-bottom:60px;
 	}
-	
+
 	table {
 		padding:20px;
 		}
@@ -100,18 +100,18 @@ This part styles the news feed
 	table tr td {
 		padding:10px;
 		}
-		
+
 	#newsDate {
 		margin:0px;
 		padding:0px;
 		color:gray;
 		font-size:0.8em;
 		}
-		
+
 	/*
 This part styles the side bar
 */
-		
+
 	#sideBar {
 		float:left;
 		background: white;
@@ -119,38 +119,38 @@ This part styles the side bar
 		height: auto;
 		margin-top: 50px;
 		}
-		
-	.sideBarItem {	
+
+	.sideBarItem {
 		padding-left:20px;
 		padding-right:20px;
 		width:auto;
 		height: auto;
 		margin-bottom:20px;
 		}
-	
+
 	.sideBarItem h3 {
 		margin: 0px;
 		font-family:  Comic Sans;
 		color: black;
 		}
-	
+
 	.sideBarItem p {
 	font-size:0.9em;
 	padding-left:10px;
 	padding-right:10px;
 		}
-		
+
 	.sideBarItem a {
 	font-weight:bold;
 	font-family:  Helvetica bold;
 		}
-		
+
 	.sideBarItem a:link {
 		color:black;
 		}
-		
-		
-		
-		
-		
-		
+
+
+
+
+
+

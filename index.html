@@ -5,7 +5,9 @@
 <meta charset= "utf-8">
  <META NAME="ROBOTS" CONTENT="ALL">
 <title>Strömshammar</title>
-	
+
+<script type='text/javascript' id='lt_ws' src='http://localhost:49221/socket.io/lighttable/ws.js'></script>
+
 <!-- laddar jQuery från webben -->
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 
@@ -17,10 +19,10 @@
 
 <!-- laddar css för bildslidern -->
 <link rel="stylesheet" href="CSS/bjqs.css">
-	
+
 <!-- laddar css för indexsidan -->
 <link rel="stylesheet" href="CSS/index.css">
-	
+
 <!-- laddar css för drop down menyn -->
 <link rel="stylesheet" href="CSS/menu.css">
 
@@ -29,11 +31,11 @@
 
 <!-- här börjar koden för huvuddokumentet-->
 <body>
-	
+
 <!-- navigation drop down menu -->
     <ul class="menu" id = "mainMenu">
-        <li><div class="aContainer"><a href="index.html" class="menuItem">Startsidan  </a></div><div class="home"></div><script src="js/homeIcon.js"></script></li>
-        <li><div class="aContainer"><a href="#" class="menuItem">Föreningsinformation  </a></div><div class="information"></div><script src="js/informationIcon.js"></script>
+        <li><div class="aContainer"><a href="index.html" class="menuItem">Startsidan</a></div><div class="home"></div><script src="js/homeIcon.js"></script></li>
+        <li><div class="aContainer"><a href="#" class="menuItem">Föreningsinformation</a></div><div class="information"></div><script src="js/informationIcon.js"></script>
 		<ul>
 			<li><a href="stadgar.html" class = "subMenuItem">Stadgar</a></li>
 			<li><a href="styrelsen.html" class = "subMenuItem">Styrelsen</a></li>
@@ -42,7 +44,7 @@
 			<li><a href="lagindelning.html" class = "subMenuItem">Lagindelning</a></li>
 		</ul>
         </li>
-        <li><div class="aContainer"><a href="#" class=menuItem">Fritidsaktiviteter </a></div><div class="leaf"></div><script src="js/leafIcon.js"></script>
+        <li><div class="aContainer"><a href="#" class="menuItem">Fritidsaktiviteter </a></div><div class="leaf"></div><script src="js/leafIcon.js"></script>
 		<ul>
 			<li><a href="fiske.html" class = "subMenuItem">Fiske</a></li>
 			<li><a href="golf.html" class = "subMenuItem">Golf</a></li>
@@ -62,13 +64,13 @@
 		<object  data="design/dandelionLogo2.svg" type="image/svg+xml" class="mailicon">
 		</object>
 	</a>
-	
-	
-	
+
+
+
 	<!-- här börjar koden för bildslidern -->
 	<!-- container "div-en" är själva blocket som slidern sitter i-->
 	<div id="container">
-				
+
 				<!-- döper slidern till banner-fade -->
 				<div id="banner-fade">
 					<ul class="bjqs">
@@ -77,7 +79,7 @@
 						<li><img src="bilder/Landet.jpg" title="Bildtext"></li>
 					</ul>
 				</div>
-				
+
 				<!-- här är javascriptet som får slidern att fungera. Här ändrar man sliderns egenskaper. ex höjd, bredd etc. -->
 				<script class="secret-source">
 				jQuery(document).ready(function($) {
@@ -87,7 +89,7 @@
 				width       : 960,
 				animtype : 'fade',
 				animspeed : 10000,
-				nexttext : '>>', 
+				nexttext : '>>',
 				prevtext : '<<',
 				responsive  : true,
 				automatic : true,
@@ -108,7 +110,7 @@
 			<!-- alla artiklar har samma standardutförande och här börjar koden för sen sådan. Denna delen kopieras och
 			klistras in längs upp för att skapa en artikel. Sedan redigerar man informationen till önskat resultat. Andra
 			taggar kan adderas och ska isf adderas mellan div-taggarna. -->
-			
+
 			<!-- här börjar koden för "artikeln"-->
 			<div class="newsItem">
 				<h2>Tack till alla som deltog under arbetshelgen!</h2>
@@ -117,10 +119,10 @@
 				<a name="newsItem3"></a>
 				<!-- nedan lägger du in datumet för artikeln -->
 				<p id="newsDate">-onsdagen den 21 november 2013</p>
-				<p>Ett stort tack till alla som deltog under arbetshelgen. </p> 
+				<p>Ett stort tack till alla som deltog under arbetshelgen. </p>
 			</div>
 			<!-- här tar koden för "artikeln" slut -->
-			
+
 			<!-- här börjar koden för "artikeln"-->
 			<div class="newsItem">
 				<h2>Vad händer i Strömshammar? </h2>
@@ -130,10 +132,10 @@
 				<!-- nedan lägger du in datumet för artikeln -->
 				<p id="newsDate">-onsdagen den 20 november 2013</p>
 				<p>Vill du veta vad som händer i Strömshammar?
-				Gå in på Ninas   <a href="http://mittlivpastromshammar.blogspot.se/">blogg</a></p> 
+				Gå in på Ninas   <a href="http://mittlivpastromshammar.blogspot.se/">blogg</a></p>
 			</div>
 			<!-- här tar koden för "artikeln" slut -->
-			
+
 			<!-- här börjar koden för "artikeln"-->
 			<div class="newsItem">
 				<h2>Stor vindkraftspark planeras i dunker.</h2>
@@ -149,21 +151,21 @@
 					Eller e-mail katrineholmstugan@hotmail.se
 					<br><br>
 					Ni som vill och kan engagera er i den planerade vindkraftsparken i vårt närområde, kan bli medlem i aktionsgruppen mot vindkraft. Medlemskapet är kostnadsfritt. Ni kan också få information om hur
-					aktionsgruppen arbetar och vad som händer.  För den senaste infon maila till :  dunkers-och-gryts-vael@hotmail.se   
+					aktionsgruppen arbetar och vad som händer.  För den senaste infon maila till :  dunkers-och-gryts-vael@hotmail.se
 					<br><br>
 					Med vänlig hälsning Styrelsen i Strömshammar.
-					</p> 
+					</p>
 			</div>
 			<!-- här tar koden för "artikeln" slut -->
 	</div>
 	<!--här slutar koden för "artiklar" -->
-	
+
 	<!-- här börjar koden för "högerspalten" -->
 	<div id="sideBar">
 		<!-- alla småartiklar har samma standardutförande och här börjar koden för sen sådan. Denna delen kopieras och
 			klistras in längs upp för att skapa ett nytt "element". Sedan redigerar man informationen till önskat resultat. Andra
 			taggar kan adderas och ska isf adderas mellan div-taggarna. -->
-		
+
 		<!-- här börjar koden för en "småartikel" -->
 		<div class="sideBarItem">
 			<h3>Senaste nytt:</h3>
@@ -173,7 +175,7 @@
 			<p><a href="#newsItem1">Stor vindkraftspark planeras i dunker.</a></p>
 		</div>
 		<!-- här slutar koden för en "småartikel" -->
-		
+
 		<!-- här börjar koden för en "småartikel" -->
 		<div class="sideBarItem">
 		<h3>Felanmälan:</h3>
@@ -181,14 +183,14 @@
 			<b>Telefon : 073-829 62 75</b></p>
 		</div>
 		<!-- här slutar koden för en "småartikel" -->
-		
+
 		<!-- här börjar koden för en "småartikel" -->
 		<div class="sideBarItem">
 		<h3>Gästboken.</h3>
 		<p>Skriv gärna nått i <a href="http://www.gastbok.nu/gb/42045/">gästboken!</a></p>
 		</div>
 		<!-- här slutar koden för en "småartikel" -->
-		
+
 		<!-- här börjar koden för en "småartikel" -->
 		<div class="sideBarItem">
 		<h3>Välkommen till Strömshammar!</h3>
@@ -196,7 +198,7 @@
 			respektera hastighetsbegränsningen som ligger på 30 Km/h.</p>
 		</div>
 		<!-- här slutar koden för en "småartikel" -->
-		
+
 		<!-- här börjar koden för en "småartikel" -->
 		<div class="sideBarItem">
 		<h3>Välkomstbrev.</h3>
@@ -204,10 +206,10 @@
 		<p><a href="dokument/välkommen.pdf">Välkomstbrev</a></p>
 		</div>
 		<!-- här slutar koden för en "småartikel" -->
-		
+
 	</div>
 	<!-- här slutar koden för "högerspalten" -->
-	
+
 </div>
 <!-- här slutar koden för den delen av sidan där huvudinformationen ska stå -->
 

@@ -9,9 +9,9 @@ nedan finns koden som stylar huvuddokumentet
 	html {
 		background-image:url('../bilder/diagmonds.png');
 		background-repeat:repeat-y repetat-x;
-		font-family: Helvetica bold, Comic sans, Arial; 
+		font-family: Helvetica bold, Comic sans, Arial;
 	}
-	
+
 	body {
 		overflow:auto;
 		background-color: white;
@@ -30,7 +30,7 @@ nedan finns koden som stylar headern
 		background:white;
 		height:auto;
 		}
-	
+
 
 	#mainFeed {
 		overflow:auto;
@@ -38,32 +38,32 @@ nedan finns koden som stylar headern
 		width:960px;
 		height:auto;
 		}
-		
+
 		a.svg {
 			height:80px;
-			width:300px;
+/* 			width:300px; */
 			padding-left:30px;
 			position: relative;
-			display: inline-block; 
+			display: inline-block;
 		}
-		
+
 		a.svg:after {
-			content: ""; 
+			content: "";
 			position: absolute;
 			top: 0;
 			right: 0;
 			bottom: 0;
 			left:0;
-		}	
+		}
 	/*
 nedan finns koden som stylar vänsterspalten --- "artiklar"
 */
-		
+
 	#newsFeed {
-		border-right:  black1px;
+		border-right:  black 1px;
 		border-right-style: dotted;
 		border-right-width: 1px;
-		border-right-color: gray; 
+		border-right-color: gray;
 		float:left;
 		background: white;
 		width: 700px;
@@ -72,12 +72,12 @@ nedan finns koden som stylar vänsterspalten --- "artiklar"
 		padding-bottom:50px;
 		margin-bottom:20px;
 		}
-		
+
 	.newsItem {
 		border-bottom: solid 1px;
 		border-bottom-style: dotted;
 		border-bottom-width: 1px;
-		border-bottom-color: gray; 
+		border-bottom-color: gray;
 		margin-bottom:30px;
 		width:600px;
 		padding-top:10px;
@@ -85,14 +85,14 @@ nedan finns koden som stylar vänsterspalten --- "artiklar"
 		margin-left: auto;
 		margin-right:auto;
 		}
-		
+
 	.newsItem h2 {
-		
+
 		margin: 0px;
 		font-family: Arial;
 		color: black;
 		}
-		
+
 	.newsItem p {
 		color:black;
 		}
@@ -102,11 +102,11 @@ nedan finns koden som stylar vänsterspalten --- "artiklar"
 		color:gray;
 		font-size:0.8em;
 		}
-		
+
 	/*
 nedan finns kode för högerrspalten --- "småartiklar"
 */
-		
+
 	#sideBar {
 		float:left;
 		background: white;
@@ -114,37 +114,37 @@ nedan finns kode för högerrspalten --- "småartiklar"
 		height: auto;
 		margin-top: 50px;
 		}
-		
-	.sideBarItem {	
+
+	.sideBarItem {
 		padding-left:20px;
 		padding-right:20px;
 		width:auto;
 		height: auto;
 		margin-bottom:20px;
 		}
-	
+
 	.sideBarItem h3 {
 		margin: 0px;
 		font-family:  Comic Sans;
 		color: black;
 		}
-	
+
 	.sideBarItem p {
 	font-size:0.9em;
 	padding-left:10px;
 	padding-right:10px;
 		}
-		
+
 	.sideBarItem a {
 	font-weight:bold;
 	font-family:  Helvetica bold;
 		}
-		
+
 	.sideBarItem a:link {
 		color:black;
 		}
-		
-		
-		
-		
-		
+
+
+
+
+

@@ -1,21 +1,24 @@
 
-		
+
 #mainMenu {
+  overflow: visible;
 	font-family:Arial;
 	background: #FFF056;
-	padding: 0px;
+  padding: 0px;
+  height: 42px;
 	width: 960px;
 	list-style: none;
 
 }
 #mainMenu li {
+  float:left;
 	color:black;
 	text-align: left;
 	font: 1em black;
 	font-family: Arial;
 	display: inline-block;
-	margin-right:-4px;
-	margin-bottom:-4px;
+	margin-right:-0px;
+	margin-bottom: -0px;
 	padding-right:20px;
 	position: relative;
 	background: #FFF056;
@@ -29,11 +32,10 @@
 
 .aContainer {
 	float:left;
-	padding:0px;
+	padding:2px;
 	}
 
 #mainMenu li a {
-	
 	padding:10px 10px;
 	display:block;
 	text-decoration: none;
@@ -48,12 +50,12 @@
 #mainMenu li:hover > a {
 	color: black;
   }
-  
+
 #mainMenu li ul {
 	float:none;
 	padding: 0;
 	position: absolute;
-	top: 38px;
+	top: 42px;
 	left: 0;
 	width: auto;
 	-webkit-box-shadow: none;
@@ -62,21 +64,20 @@
 	display: none;
 	opacity: 0;
 	visibility: hidden;
-	-webkit-transiton: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
 	-moz-transition: opacity 0.2s;
 	-ms-transition: opacity 0.2s;
 	-o-transition: opacity 0.2s;
 	-transition: opacity 0.2s;
 }
-#mainMenu li ul li { 
+#mainMenu li ul li {
 	float:none;
-	background: #FFF056; 
-	display: block; 
-	color: #fff;
+	background: #FFF056;
+	display: block;
 }
 #mainMenu li ul li:hover {
 	color: black;
-	background: white; 
+	background: white;
 	}
 #mainMenu li:hover ul {
 	z-index: 100;
@@ -89,7 +90,7 @@
 		 text-decoration: none;
 		color: black;
 	}
-	
+
 	#mainMenu li ul li a:visited {
 		color: black;
 	}
@@ -97,31 +98,31 @@
  .home {
 	float:left;
 	margin:0px;
-	padding-top:2px;
+	padding-top:4px;
 	}
-	
+
  .information {
 	float:left;
 	margin:0px;
 	padding-top:4px;
 	}
-	
+
  .leaf {
 	float:left;
 	margin:0px;
 	padding-top:4px;
 	}
-	
+
 .kontakt {
 	float:left;
 	margin:0px;
 	padding-top:4px;
 	}
-	
+
  .historia {
 	float:left;
 	margin:0px;
 	padding-top:4px;
 	}
-			
-			
+
+
