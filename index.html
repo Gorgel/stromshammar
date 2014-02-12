@@ -53,7 +53,7 @@
 		</ul>
 	</li>
         <li><div class="aContainer"><a href="kontakt.html" class="menuItem">Kontakt  </a></div><div class="kontakt"></div><script src="js/kontaktIcon.js"></script></li>
-        <li><div class="aContainer"><a href="historia.html"class="menuItem">Historia  </a></div><div class="historia"></div><script src="js/historiaIcon.js"></script></li>
+        <li><div class="aContainer"><a href="historia.html" class="menuItem">Historia  </a></div><div class="historia"></div><script src="js/historiaIcon.js"></script></li>
     </ul>
 <!-- slut på drop down menyn -->
 
@@ -75,8 +75,11 @@
 				<div id="banner-fade">
 					<ul class="bjqs">
 						<!-- här lägger man till bilder i slidern. lägg till title="beskrivande bildtext" för bildtext. -->
-						<li><img src="bilder/Landet.jpg" title="Bildtext"></li>
-						<li><img src="bilder/Landet.jpg" title="Bildtext"></li>
+						<li><img src="bilder/slider/hostsjo.jpg"></li>
+						<li><img src="bilder/slider/brygga.jpg"></li>
+                        <li><img src="bilder/slider/kvallssol.jpg"></li>
+                        <li><img src="bilder/slider/snostuga.jpg"></li>
+                        <li><img src="bilder/slider/guldbrygga.jpg"></li>
 					</ul>
 				</div>
 
@@ -85,12 +88,12 @@
 				jQuery(document).ready(function($) {
 
 				$('#banner-fade').bjqs({
-				height      : 200,
+				height      : 250,
 				width       : 960,
 				animtype : 'fade',
-				animspeed : 10000,
-				nexttext : '>>',
-				prevtext : '<<',
+				animspeed : 5000,
+				nexttext : '»',
+				prevtext : '« ',
 				responsive  : true,
 				automatic : true,
 				});
